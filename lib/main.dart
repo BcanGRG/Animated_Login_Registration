@@ -2,7 +2,7 @@ import 'package:animated_login_and_registration/auth_screen.dart';
 import 'package:animated_login_and_registration/constants.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Animated Login',
       theme: ThemeData(
           primarySwatch: Colors.blue,
-          inputDecorationTheme: InputDecorationTheme(
+          inputDecorationTheme: const InputDecorationTheme(
               filled: true,
               fillColor: Colors.white38,
               border: InputBorder.none,
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
               contentPadding: EdgeInsets.symmetric(
                   vertical: AppConstants.defaultPadding * 1.2,
                   horizontal: AppConstants.defaultPadding))),
-      home: AuthScreen(),
+      home: const AuthScreen(),
     );
   }
 }

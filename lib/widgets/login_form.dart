@@ -15,9 +15,9 @@ class LoginForm extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Spacer(),
+            const Spacer(),
             TextFormField(
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 hintText: "Email",
               ),
             ),
@@ -25,19 +25,19 @@ class LoginForm extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: AppConstants.defaultPadding),
               child: TextFormField(
                 obscureText: true,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   hintText: "Password",
                 ),
               ),
             ),
             TextButton(
               onPressed: () {},
-              child: Text(
+              child: const Text(
                 "Forgot Password?",
                 style: TextStyle(color: Colors.white),
               ),
             ),
-            Spacer(flex: 2),
+            const Spacer(flex: 2),
           ],
         ),
       ),

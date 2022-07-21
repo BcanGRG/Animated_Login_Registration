@@ -14,9 +14,9 @@ class SignUpForm extends StatelessWidget {
       child: Form(
         child: Column(
           children: [
-            Spacer(),
+            const Spacer(),
             TextFormField(
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 hintText: "Email",
               ),
             ),
@@ -24,18 +24,18 @@ class SignUpForm extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: AppConstants.defaultPadding),
               child: TextFormField(
                 obscureText: true,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   hintText: "Password",
                 ),
               ),
             ),
             TextFormField(
               obscureText: true,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 hintText: "Confirm Password",
               ),
             ),
-            Spacer(flex: 2)
+            const Spacer(flex: 2)
           ],
         ),
       ),
