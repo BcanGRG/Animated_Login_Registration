@@ -1,16 +1,26 @@
-# animated_login_and_registration
 
-A new Flutter project.
+# Animated Login And Registration 
 
-## Getting Started
+Animasyonlu Giriş Yap ve Kayıt Ol kullanıcı arayüzü
+## Tech Stack
 
-This project is a starting point for a Flutter application.
+**Client:** Flutter/Dart
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+## Demo
+![](https://github.com/BcanGRG/Animated_Login_Registration/blob/main/assets/animation_login.gif)
+
+
+## Authors
+
+- [@BurakCanGörgülü](https://github.com/BcanGRG)
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at burockcan2309@gmail.com
+
